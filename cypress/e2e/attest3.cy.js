@@ -1,4 +1,4 @@
-it("Тест https://www.globalsqa.com/angularJs-protractor/BankingProject", () => {
+it("attest3", () => {
   cy.visit(
     "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"
   );
@@ -27,6 +27,6 @@ it("Тест https://www.globalsqa.com/angularJs-protractor/BankingProject", () 
   cy.contains('button[type="submit"]', "Deposit").click();
   cy.contains("Deposit Successful").should("be.visible");
   cy.contains("button", "Logout").click();
-  
+
   cy.url().should("include", "/#/customer");
 });
