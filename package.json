@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R4MIL/cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R4MIL/cypress/issues"
+  },
+  "homepage": "https://github.com/R4MIL/cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  }
+}
